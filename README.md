@@ -30,6 +30,20 @@ Tested on:
 - Safari (Mac)
 - Chrome (Mac)
 
+## Project Structure
+
+browserstack/
+│
+├── browserstack_parallel.py
+├── main_local.py
+├── requirements.txt
+├── README.md
+└── article_images/
+
+## Setup Instructions
+
+### Install dependencies
+
 ## How to Run
 
 ### Local Execution
@@ -37,3 +51,14 @@ Tested on:
 ```bash
 python main_local.py
 ```
+
+### Run on BrowserStack
+
+python browserstack_parallel.py
+
+Update your credentials in:
+
+browserstack_parallel.py
+
+USERNAME = "your_username"
+ACCESS_KEY = "your_access_key"
