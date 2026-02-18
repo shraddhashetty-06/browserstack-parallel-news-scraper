@@ -54,7 +54,9 @@ python main_local.py
 
 ### Run on BrowserStack
 
+```bash
 python browserstack_parallel.py
+```
 
 Update your credentials in:
 
