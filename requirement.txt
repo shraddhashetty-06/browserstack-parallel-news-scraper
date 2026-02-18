@@ -1,0 +1,4 @@
+
+webdriver-manager
+requests
+deep-translator
